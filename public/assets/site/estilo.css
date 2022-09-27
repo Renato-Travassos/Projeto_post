@@ -1,0 +1,103 @@
+.border{
+  background-color: rgba(29, 24, 24, 0.747);
+  text-align: center;
+  color: #ffffff;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+} 
+p{
+    font-style:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+main{
+  
+    font-size: 2.5vh;
+    align-content: center; 
+    max-width: 708px; 
+    margin: auto;
+}             
+a{
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     text-decoration: none;
+     font-size: medium;
+     padding-right: 62px;
+}
+ 
+.menu{
+    background-color: rgba(0, 0, 0, 0.767);
+    text-align: center;
+    padding:10px ;
+}
+ .no-underline:hover {
+    text-decoration: none;
+    color: rgb(0, 26, 255);
+  }   
+.image{
+  width: 200px;
+  position: relative;
+  display:inline-flex;
+  padding-right: 236px;
+  margin-left: 59px;
+}
+.image__img{
+display: block;
+width: 300px;
+ 
+}
+ 
+ 
+.image__overplay{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 300px;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  opacity: 0 !important;
+  transition:  1.5s  !important;
+}
+.image__overplay:hover{
+opacity: 1 !important;
+
+} 
+.image__description{
+  
+  font-size: 1.25em;
+  margin-top: 0.25em;
+}
+.mensagem{
+    animation: hideAnimation 0s ease-in 5s;
+    animation-fill-mode: forwards;
+  }
+.fa-trash-alt{
+  background:transparent;
+  color: rgb(241, 79, 79);
+  border: none;
+  margin: 0;
+  padding: 0;
+} 
+  
+  @keyframes hideAnimation {
+    to {
+      visibility: hidden;
+      width: 0;
+      height: 0;
+    }
+  }
+  @media( max-width: 618px){
+   
+
+
+ p{
+    color:rgba(44, 43, 43, 0.829);     
+    font-size: 2.5vh;
+    text-align: center;
+}
+ a{
+   color: rgb(68, 15, 15);
+     text-decoration: none;
+}
+  }
